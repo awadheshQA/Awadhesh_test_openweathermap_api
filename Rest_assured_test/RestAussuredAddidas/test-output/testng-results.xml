@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="42" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30863" started-at="2018-11-18T11:53:51Z" finished-at="2018-11-18T11:54:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30863" started-at="2018-11-18T11:53:51Z" finished-at="2018-11-18T11:54:22Z">
+      <class name="sanityTest.SanityTestCases">
+        <test-method status="PASS" signature="checkAucklandMinTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkAucklandMinTemp" duration-ms="2745" started-at="2018-11-18T17:23:51Z" finished-at="2018-11-18T17:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAucklandMinTemp -->
+        <test-method status="PASS" signature="checkBarcelonaPressure()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkBarcelonaPressure" duration-ms="658" started-at="2018-11-18T17:23:54Z" finished-at="2018-11-18T17:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBarcelonaPressure -->
+        <test-method status="PASS" signature="checkBerlinHumidity()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkBerlinHumidity" duration-ms="606" started-at="2018-11-18T17:23:54Z" finished-at="2018-11-18T17:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBerlinHumidity -->
+        <test-method status="PASS" signature="checkCaliforniaMaxTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkCaliforniaMaxTemp" duration-ms="843" started-at="2018-11-18T17:23:55Z" finished-at="2018-11-18T17:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaliforniaMaxTemp -->
+        <test-method status="PASS" signature="checkCityId()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkCityId" duration-ms="640" started-at="2018-11-18T17:23:56Z" finished-at="2018-11-18T17:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCityId -->
+        <test-method status="PASS" signature="checkClouds()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkClouds" duration-ms="639" started-at="2018-11-18T17:23:56Z" finished-at="2018-11-18T17:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkClouds -->
+        <test-method status="PASS" signature="checkDublinMainTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkDublinMainTemp" duration-ms="760" started-at="2018-11-18T17:23:57Z" finished-at="2018-11-18T17:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDublinMainTemp -->
+        <test-method status="PASS" signature="checkDublinWeaterMainDescription()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkDublinWeaterMainDescription" duration-ms="665" started-at="2018-11-18T17:23:58Z" finished-at="2018-11-18T17:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDublinWeaterMainDescription -->
+        <test-method status="FAIL" signature="checkGangtokWindDeg()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkGangtokWindDeg" duration-ms="762" started-at="2018-11-18T17:23:58Z" finished-at="2018-11-18T17:23:59Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.Float cannot be cast to java.lang.Integer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.Integer
+	at sanityTest.SanityTestCases.checkGangtokWindDeg(SanityTestCases.java:369)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGangtokWindDeg -->
+        <test-method status="PASS" signature="checkHumidity()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkHumidity" duration-ms="731" started-at="2018-11-18T17:23:59Z" finished-at="2018-11-18T17:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHumidity -->
+        <test-method status="PASS" signature="checkLalitpurMaxTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkLalitpurMaxTemp" duration-ms="710" started-at="2018-11-18T17:24:00Z" finished-at="2018-11-18T17:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLalitpurMaxTemp -->
+        <test-method status="PASS" signature="checkLondonVisibility()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkLondonVisibility" duration-ms="681" started-at="2018-11-18T17:24:01Z" finished-at="2018-11-18T17:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLondonVisibility -->
+        <test-method status="PASS" signature="checkMadridWeaterMain()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkMadridWeaterMain" duration-ms="832" started-at="2018-11-18T17:24:01Z" finished-at="2018-11-18T17:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMadridWeaterMain -->
+        <test-method status="PASS" signature="checkMainTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkMainTemp" duration-ms="654" started-at="2018-11-18T17:24:02Z" finished-at="2018-11-18T17:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainTemp -->
+        <test-method status="PASS" signature="checkManchesterWindSpeed()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkManchesterWindSpeed" duration-ms="626" started-at="2018-11-18T17:24:03Z" finished-at="2018-11-18T17:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkManchesterWindSpeed -->
+        <test-method status="PASS" signature="checkMaxTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkMaxTemp" duration-ms="633" started-at="2018-11-18T17:24:03Z" finished-at="2018-11-18T17:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMaxTemp -->
+        <test-method status="PASS" signature="checkMinTemp()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkMinTemp" duration-ms="544" started-at="2018-11-18T17:24:04Z" finished-at="2018-11-18T17:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMinTemp -->
+        <test-method status="PASS" signature="checkPressure()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkPressure" duration-ms="597" started-at="2018-11-18T17:24:05Z" finished-at="2018-11-18T17:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPressure -->
+        <test-method status="PASS" signature="checkSunrise()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkSunrise" duration-ms="568" started-at="2018-11-18T17:24:05Z" finished-at="2018-11-18T17:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSunrise -->
+        <test-method status="PASS" signature="checkSunset()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkSunset" duration-ms="596" started-at="2018-11-18T17:24:06Z" finished-at="2018-11-18T17:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSunset -->
+        <test-method status="PASS" signature="checkTokiyoCityId()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkTokiyoCityId" duration-ms="574" started-at="2018-11-18T17:24:06Z" finished-at="2018-11-18T17:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTokiyoCityId -->
+        <test-method status="PASS" signature="checkValenciaClouds()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkValenciaClouds" duration-ms="708" started-at="2018-11-18T17:24:07Z" finished-at="2018-11-18T17:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValenciaClouds -->
+        <test-method status="PASS" signature="checkVisibility()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkVisibility" duration-ms="557" started-at="2018-11-18T17:24:08Z" finished-at="2018-11-18T17:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibility -->
+        <test-method status="PASS" signature="checkWeaterMain()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkWeaterMain" duration-ms="595" started-at="2018-11-18T17:24:08Z" finished-at="2018-11-18T17:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeaterMain -->
+        <test-method status="PASS" signature="checkWeaterMainDescription()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkWeaterMainDescription" duration-ms="596" started-at="2018-11-18T17:24:09Z" finished-at="2018-11-18T17:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeaterMainDescription -->
+        <test-method status="PASS" signature="checkWindDeg()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkWindDeg" duration-ms="588" started-at="2018-11-18T17:24:09Z" finished-at="2018-11-18T17:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWindDeg -->
+        <test-method status="PASS" signature="checkWindSpeed()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkWindSpeed" duration-ms="599" started-at="2018-11-18T17:24:10Z" finished-at="2018-11-18T17:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWindSpeed -->
+        <test-method status="PASS" signature="checkZaragozaSunrise()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkZaragozaSunrise" duration-ms="606" started-at="2018-11-18T17:24:11Z" finished-at="2018-11-18T17:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkZaragozaSunrise -->
+        <test-method status="PASS" signature="checkZaragozaSunset()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="checkZaragozaSunset" duration-ms="605" started-at="2018-11-18T17:24:11Z" finished-at="2018-11-18T17:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkZaragozaSunset -->
+        <test-method status="PASS" signature="extractCityNameFromResponseBody()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="extractCityNameFromResponseBody" duration-ms="553" started-at="2018-11-18T17:24:12Z" finished-at="2018-11-18T17:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractCityNameFromResponseBody -->
+        <test-method status="PASS" signature="testCallforSeveralCityIDs()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCallforSeveralCityIDs" duration-ms="1126" started-at="2018-11-18T17:24:12Z" finished-at="2018-11-18T17:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCallforSeveralCityIDs -->
+        <test-method status="PASS" signature="testCallforSeveralCityIDsrespCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCallforSeveralCityIDsrespCode" duration-ms="948" started-at="2018-11-18T17:24:14Z" finished-at="2018-11-18T17:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCallforSeveralCityIDsrespCode -->
+        <test-method status="PASS" signature="testCitynameAndCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameAndCode" duration-ms="836" started-at="2018-11-18T17:24:14Z" finished-at="2018-11-18T17:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameAndCode -->
+        <test-method status="PASS" signature="testCitynameAndId()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameAndId" duration-ms="588" started-at="2018-11-18T17:24:15Z" finished-at="2018-11-18T17:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameAndId -->
+        <test-method status="PASS" signature="testCitynameBerlinAndCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameBerlinAndCode" duration-ms="692" started-at="2018-11-18T17:24:16Z" finished-at="2018-11-18T17:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameBerlinAndCode -->
+        <test-method status="PASS" signature="testCitynameLondonAndCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameLondonAndCode" duration-ms="574" started-at="2018-11-18T17:24:17Z" finished-at="2018-11-18T17:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameLondonAndCode -->
+        <test-method status="PASS" signature="testCitynameMadridAndCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameMadridAndCode" duration-ms="612" started-at="2018-11-18T17:24:17Z" finished-at="2018-11-18T17:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameMadridAndCode -->
+        <test-method status="PASS" signature="testCitynameSydneyAndCode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testCitynameSydneyAndCode" duration-ms="629" started-at="2018-11-18T17:24:18Z" finished-at="2018-11-18T17:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitynameSydneyAndCode -->
+        <test-method status="PASS" signature="testParameters()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testParameters" duration-ms="601" started-at="2018-11-18T17:24:18Z" finished-at="2018-11-18T17:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters -->
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testResponsecode" duration-ms="950" started-at="2018-11-18T17:24:19Z" finished-at="2018-11-18T17:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsecode -->
+        <test-method status="PASS" signature="testcityLocation()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="testcityLocation" duration-ms="997" started-at="2018-11-18T17:24:20Z" finished-at="2018-11-18T17:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcityLocation -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:sanityTest.SanityTestCases@61443d8f]" name="verifyContentType" duration-ms="785" started-at="2018-11-18T17:24:21Z" finished-at="2018-11-18T17:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+      </class> <!-- sanityTest.SanityTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
