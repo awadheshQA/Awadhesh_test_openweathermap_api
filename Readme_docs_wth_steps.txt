@@ -115,6 +115,10 @@ Awadhesh_test_openweathermap_api
 
 
 	Selenium_Test_Awadhesh [ This test framwork to test web application as http://store.demoqa.com/sample-page/ ] 
+	                       [Add jars in Eclipse as external jars]
+                               [Add *driver.exe in path and replace in the StoreAction.java with the latest path]
+
+                                [Add runner as testNG configuration]
 	
 	    src/action/
 		         --> StoreAction [ it has all actions and store steps]
